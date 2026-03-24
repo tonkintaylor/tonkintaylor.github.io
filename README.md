@@ -1,5 +1,7 @@
 # Engineering at Tonkin + Taylor
 
+![Tonkin + Taylor](assets/logos/tt-logo-horizontal-color.png)
+
 Welcome to the open-source home of T+T's software and data engineering teams. We build tools that bridge the gap between physical infrastructure and digital intelligence.
 
 ## 🛠 Our Technical Focus
@@ -17,11 +19,9 @@ We specialise in creating robust solutions for the AEC (Architecture, Engineerin
 | Metric | Status |
 | :--- | :--- |
 | **Open Source Repos** | 12 Active |
-| **Primary Stack** | Python, R, React, SQL |
+| **Primary Stack** | Python, R |
 | **Core Territories** | NZ, Australia, South Pacific |
 
 ## 👥 The Team
 
 Our team consists of Civil Engineers, Data Scientists, and Software Engineers working in a cross-functional "Guild" structure.
-
-> **Note:** Want to join us? Check out our [Careers Page](https://www.tonkintaylor.co.nz/careers).
