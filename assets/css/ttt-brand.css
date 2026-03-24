@@ -1,0 +1,60 @@
+/*
+ * Tonkin + Taylor Brand Tokens
+ * ============================
+ * Canonical source of T+T brand colours and font stacks.
+ *
+ * Hosted at: https://tonkintaylor.github.io/assets/css/ttt-brand.css
+ * Reference: docs/reference/tonkin-and-taylor-visual-identity-guide.md
+ *
+ * Usage in Quarto (.qmd):
+ *   format:
+ *     html:
+ *       css: https://tonkintaylor.github.io/assets/css/ttt-brand.css
+ *     revealjs:
+ *       css: https://tonkintaylor.github.io/assets/css/ttt-brand.css
+ *
+ * Usage in HTML / inline styles:
+ *   color: var(--ttt-blue);
+ *   border-left: 4px solid var(--ttt-turquoise);
+ */
+
+:root {
+  /* ════════════════════════════════════════════════════════════
+   * COLOUR PALETTE
+   * ════════════════════════════════════════════════════════════ */
+
+  /* ── Primary colour palette
+   *    Used across all external-facing materials.               */
+  --ttt-light-turquoise: #68C1D0;   /* Primary */
+  --ttt-turquoise:       #4FA7C4;   /* Primary */
+  --ttt-blue:            #006FA2;   /* Primary */
+
+  /* ── Accent colour palette
+   *    Use sparingly — highlights only, max 5 % of any layout. */
+  --ttt-yellow:          #FFED07;   /* Accent */
+
+  /* ── Secondary colour palette
+   *    For additional data series and NZ in-house materials.   */
+  --ttt-green:           #76B804;   /* Secondary */
+  --ttt-teal:            #008BA1;   /* Secondary */
+  --ttt-grey:            #788DA0;   /* Secondary */
+  --ttt-dark-blue:       #00487D;   /* Secondary */
+  --ttt-purple:          #951B81;   /* Secondary */
+  --ttt-bright-blue:     #00A6E2;   /* Secondary */
+
+  /* ════════════════════════════════════════════════════════════
+   * TYPOGRAPHY
+   * ════════════════════════════════════════════════════════════ */
+
+  /* ── Primary typeface
+   *    Accura is the main brand typeface. Must be used wherever
+   *    possible. Used for all print and electronic collateral
+   *    produced by the Creative Design Team (CDT).             */
+  --ttt-font-primary:   "Accura", "Calibri", "Segoe UI", sans-serif;
+
+  /* ── Secondary typeface
+   *    Calibri is the designated replacement when Accura is
+   *    unavailable. Standard on internal templates and Quarto
+   *    HTML output.                                            */
+  --ttt-font-secondary: "Calibri", "Segoe UI", sans-serif;
+}
