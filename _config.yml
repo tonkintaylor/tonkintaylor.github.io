@@ -1,0 +1,10 @@
+title: Tonkin + Taylor | Data and Analytics
+description: Exceptional Engineering Everyday.
+theme: jekyll-theme-minimal
+logo: /assets/img/logo.png # Add your T+T logo here later
+show_downloads: false
+google_analytics: # UA-XXXXXXXXX-X (Optional)
+# Custom variables for your "Engineering Feel"
+organisation_name: Tonkin + Taylor
+location: New Zealand
+industry: Civil Engineering Consultancy
